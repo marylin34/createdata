@@ -1,0 +1,20 @@
+---
+title: "Exercises: Building Packages"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1. [30 minutes] Clone the [elliptical](https://github.com/DataWookie/elliptical) package.
+  * Add a function to calculate the length of the semi-minor axis, given the length of the semi-major axis and the eccentricity.
+  * Add a function to calculate the area, given the length of the semi-major axis and the eccentricity.
+  * Create appropriate documentation. 
+  * Create some tests.
+  * Rebuild the package.
+
+2. [30 minutes] Find an existing R package on GitHub. Make a small contribution. Fork and clone the repository. Edit. Commit and push. Create a pull request (don't forget to include a polite message). Ideas for contributions:
+  * correcting documentation (spelling or grammatical errors)
+  * improving documentation or
+  * adding test cases.
